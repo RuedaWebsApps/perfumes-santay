@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Perfumery Santay - Tienda & Catálogo de Alta Perfumería
 
-## Getting Started
+Sitio web oficial interactivo y moderno para **Perfumery Santay**, desarrollado con la misma arquitectura y tecnologías de alto impacto implementadas en **King's Alterations** y **Loba Fashion**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💎 Características Principales
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Video Intro Cinematográfico de Bienvenida (Splash Loader):**
+   - Reproducción automática del video de presentación con efectos dorados de lujo.
+   - Opción intuitiva "Saltar Intro" / "Skip Intro".
+   - Fallback de seguridad para que la tienda sea 100% accesible de inmediato.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Soporte Bilingüe Completo (Inglés & Español):**
+   - Selector en la barra de navegación que traduce en tiempo real toda la plataforma, catálogo, pirámides olfativas, tarjetas informativas y botones.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Catálogo Exclusivo de Diseñador (Sin Precios, con Descripciones Ricas):**
+   - **0 precios visibles** según tus indicaciones precisas; cada perfume cuenta con:
+     - Casa y nombre exacto.
+     - Familia olfativa.
+     - Pirámide olfativa completa (Salida, Corazón, Fondo).
+     - Descripción sensorial detallada.
+     - Botón directo de **Consulta por WhatsApp** que genera automáticamente un mensaje con el perfume de interés.
+   - **Filtrado dinámico** por género (Dama, Caballero, Unisex) y por casa de diseño (Louis Vuitton, Creed, Bond No. 9, Valentino, YSL, Paco Rabanne, Jean Paul Gaultier, Prada, etc.).
+   - Buscador en tiempo real por texto.
 
-## Learn More
+4. **Tarjeta de Presentación Digital e Interactiva:**
+   - Visualizador interactivo con vista del frente y reverso de la tarjeta original de **Angel Santay**.
+   - Acceso con un clic a llamadas telefónicas directas `(737) 384-1191`, enlace al Instagram `@Perfumery_Santay` y mapa GPS.
 
-To learn more about Next.js, take a look at the following resources:
+5. **Ubicación & Contacto en Round Rock, TX:**
+   - Mapa interactivo integrado sobre I-35 Frontage Rd con horarios y accesos directos.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Tecnologías
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js 16 (App Router)**
+- **TypeScript**
+- **Tailwind CSS v4** con paleta personalizada Noir & Gold Luxury
+- **Lucide Icons**
+- **Client State & i18n Context**
